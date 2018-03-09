@@ -3,7 +3,7 @@
    
  集成只要在app的gradle中加入以下代码
  
-    compile 'com.zengke.eventbus:KeEventBus:1.0.1'
+    compile 'com.zengke.eventbus:eventbus:1.0.1'
     
  用法如下:
  
