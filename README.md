@@ -1,7 +1,7 @@
 # KeEventBus 
    KeEventBus 是一个事件总线框架，用法非常简单
  集成只要在app的gradle中加入以下代码
-     com.zengke.eventbus:KeEventBus:1.0.1
+    compile 'com.zengke.eventbus:KeEventBus:1.0.1'
  用法如下:
      @Override
     protected void onCreate(Bundle savedInstanceState) {
