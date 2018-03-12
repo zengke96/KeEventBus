@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KeEventBus.iml" filepath="$PROJECT_DIR$/KeEventBus.iml" />
+      <module fileurl="file://F:\Android\StudioSpace\KeEventBus\simpletest\app.iml" filepath="F:\Android\StudioSpace\KeEventBus\simpletest\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simpletest/app.iml" filepath="$PROJECT_DIR$/simpletest/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpletest/simpletest.iml" filepath="$PROJECT_DIR$/simpletest/simpletest.iml" />
     </modules>
   </component>
 </project>
