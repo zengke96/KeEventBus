@@ -20,7 +20,13 @@ public class LoginActivity extends AppCompatActivity {
         findViewById(R.id.btn_post).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EventBus.getInstance().post("曾珂");
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        EventBus.getInstance().post("just to do it");
+                    }
+                }).start();
+
             }
         });
     }
