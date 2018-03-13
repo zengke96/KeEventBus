@@ -30,12 +30,7 @@ public class EventBus {
     }
 
     private EventBus() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                handler = new Handler(Looper.getMainLooper());
-            }
-        }).start();
+        handler = new Handler(Looper.getMainLooper());
         executorService = Executors.newCachedThreadPool();
     }
 
